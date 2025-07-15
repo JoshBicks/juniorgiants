@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Junior Giants</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"></script>
+
+  <header>
+    <img src="Images/4928DED2-FB39-4114-8904-F351DED44D7A.PNG" alt="Junior Giants Logo" />
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#learn">Learn to Play</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hamburger" onclick="toggleDrawer()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <div class="drawer" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#learn">Learn to Play</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main>
+    <section id="home" class="section">
+      <img src="Images/4928DED2-FB39-4114-8904-F351DED44D7A.PNG" alt="Junior Giants Logo">
+    </section>
+
+    <section id="learn" class="section">
+      <h2>Learn to Play - Join the fun!</h2>
+      <p>Our Learn to Play programme is the perfect way to introduce your child to the exciting world of ice hockey! Sessions run every Wednesday evening from 6–7pm for children aged 12 and under, and every Sunday evening from 6:45–7:45pm for those aged 13 and over. All sessions take place at the Dundonald Ice Bowl.</p>
+
+<p>The programme kicks off with a fun and supportive three-week trial. We provide all the equipment, including skates if needed, so your child can jump right in. We just ask that they have a bit of skating experience and are able to stand and move on the ice without one-to-one assistance.</p>
+
+<p>The programme is open to both boys and girls, and we’re proud to welcome players of all backgrounds and abilities. Before starting the trial, all equipment must be fitted in advance to make sure everything is safe and comfortable.</p>
+
+<p>After the trial, if your child loves it (which we think they will!), they’ll have the opportunity to continue playing with us as part of the programme for the rest of the season.</p>
+
+<p>If you’d like to get started or have any questions at all, please head over to the <a href="#contact">Contact</a> section of our website—we’d love to hear from you!</p>
+
+      <div class="image-gallery">
+        <img src="Images/team1.jpg" alt="Learn to Play 1">
+        <img src="Images/Team2.jpg" alt="Learn to Play 2">
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <p>The Junior Belfast Giants is an ice hockey team who play in the Junior Scottish Ice Hockey League. They play their games in the SSE Arena, Belfast, Northern Ireland and train in Dundonald International Ice Bowl.</p>
+
+<p>They use the same name and logo as the Belfast Giants who play in the UK-wide Elite Ice Hockey League.</p>
+
+<p>The Junior Belfast Giants were officially formed in June 2007 when the Belfast City Flyers and the Northern Ireland Ice Hockey Club combined forces. They believed the best way to grow the sport in the area was to form one strong, united club.</p>
+
+<p>Todd Kelman, General Manager of the Belfast Giants, helped the club find a main sponsor and allowed them to use the Belfast Giants name. However, aside from that, the two teams are not directly related.</p>
+
+<p>The Under 12s Junior Belfast Giants team had a great season and were proud runners-up in the Scottish Cup, which was held at the Dundee Ice Rink.</p>
+
+      <div class="image-gallery">
+        <img src="Images/team3.jpg" alt="Team History 1">
+        <img src="Images/team4.jpg" alt="Team History 2">
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Us</h2>
+      <form action="#" method="post" class="contact-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="section">
+      <h2>Follow Us on Facebook</h2>
+      <div class="fb-page"
+        data-href="https://www.facebook.com/YOUR_PAGE_NAME"
+        data-tabs="timeline"
+        data-width="500"
+        data-height=""
+        data-small-header="false"
+        data-adapt-container-width="true"
+        data-hide-cover="false"
+        data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/YOUR_PAGE_NAME" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/YOUR_PAGE_NAME">Visit our Facebook</a>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function toggleDrawer() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
