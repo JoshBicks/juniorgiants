@@ -176,7 +176,7 @@
     font-size: 1.2rem;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 768px) 
     nav {
       display: none;
     }
@@ -207,4 +207,4 @@
     }
     .privacy-policy {
         max-width: 100%;
-  }
+    }
