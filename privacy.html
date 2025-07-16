@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"></script>
+
+  <header>
+    <img src="Images/4928DED2-FB39-4114-8904-F351DED44D7A.PNG" alt="Junior Giants Logo" />
+    <nav>
+      <a href="index.html" onclick="CloseDrawer()">Home</a>
+      <a href="index.html#learn" onclick="CloseDrawer()">Learn to Play</a>
+      <a href="index.html#about" onclick="CloseDrawer()">About Us</a>
+      <a href="index.html#contact" onclick="CloseDrawer()">Contact</a>
+    </nav>
+    <div class="hamburger" onclick="toggleDrawer()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <div class="drawer" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="index.html#learn">Learn to Play</a>
+    <a href="index.html#about">About Us</a>
+    <a href="index.html#contact">Contact</a>
+  </div>
+
+  <main>
+    <section id="home" class="section">
+  
+    </section>
+
+    <section id="privacy" class="policy">
+      <h2>Privacy Policy</h2>
+      <h2>Privacy & Data Protection Notice</h2>
+
+  <p><strong>Junior Giants</strong> ("we", "us" or "our") operates the "www.belfastjuniorgiants.co.uk" website and is committed to protecting and respecting your privacy.</p>
+
+  <p>This Data Protection Notice outlines your privacy rights and explains how we collect, use, process, and disclose your personal data in connection with your interactions with us. Please read this notice in conjunction with our Cookie Policy.</p>
+
+  <h3>Our Website Address</h3>
+  <p>https://www.belfastjuniorgiants.co.uk</p>
+
+  <h3>Information We May Collect from You</h3>
+  <p>Personal data means any information that can identify you. It does not include data where the identity has been removed (anonymous data).</p>
+  <p>We may collect and process any type of personal data you provide in the course of interacting with us. This may include (but is not limited to):</p>
+  <ul>
+    <li>Name</li>
+    <li>Email Address</li>
+    <li>Telephone Number</li>
+  </ul>
+
+  <h3>Purpose and Legal Basis for Collecting Personal Data</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Purpose</th>
+        <th>Legal Basis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>To collect contact details from you</td>
+        <td>Consent</td>
+      </tr>
+      <tr>
+        <td>To enable us to communicate with you and provide our service</td>
+        <td>Consent</td>
+      </tr>
+      <tr>
+        <td>For direct marketing</td>
+        <td>Consent</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>If you do not provide your personal data, we may not be able to offer our services or respond to your queries submitted via our website.</p>
+
+  <h3>Comments</h3>
+  <p>When visitors leave comments on the site, we collect the data shown in the comments form, along with the visitor’s IP address and browser user agent string to help detect spam.</p>
+  <p>An anonymized string (hash) of your email address may be sent to the Gravatar service to check if you use it. See their privacy policy here: <a href="https://automattic.com/privacy/" target="_blank">Gravatar Privacy Policy</a>.</p>
+
+  <h3>Media</h3>
+  <p>If you upload images, avoid uploading those with embedded location data (EXIF GPS). Visitors to the website can download and extract this data from images.</p>
+
+  <h3>Contact Forms</h3>
+  <p>Information provided through contact forms is used to respond and communicate with you.</p>
+
+  <h3>Cookies</h3>
+  <p>If you leave a comment, you may opt-in to save your name, email, and website in cookies for convenience. These cookies last for one year.</p>
+
+  <h3>Embedded Content from Other Websites</h3>
+  <p>Articles on our site may include embedded content (videos, images, articles, etc.) from other websites. These behave in the same way as if the visitor has visited the other site directly, which may collect data, use cookies, and track interactions.</p>
+
+  <h3>Analytics</h3>
+  <p>We use Google Analytics to improve user experience. You can read their <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy here</a>.</p>
+
+  <h3>Disclosure of Your Personal Data</h3>
+  <p>We will not share your personal data with third parties unless required by law.</p>
+
+  <h3>Retention of Your Personal Data</h3>
+  <p>If you leave a comment, the comment and its metadata are stored indefinitely. This helps us recognise and approve follow-up comments automatically.</p>
+  <p>For registered users, we store the personal information in your user profile. Users can view, edit, or delete their data (except the username). Website admins can also view and edit this information.</p>
+  <p>We store your personal data only as long as necessary for the purposes it was collected.</p>
+
+  <h3>Your Rights Over Your Data</h3>
+  <p>You have the right to access and request deletion of your personal data. This excludes any data we are required to retain for administrative, legal, or security purposes.</p>
+
+  <h3>Where Your Data Is Sent</h3>
+  <p>Visitor comments may be checked using an automated spam detection service.</p>
+
+  <h3>How We Protect Your Data</h3>
+  <p>We use third-party security tools to protect your data as securely as possible.</p>
+
+  <h3>Links to Other Websites</h3>
+  <p>Our website may contain links to other websites. We are not responsible for the privacy policies or practices of those sites. Please check their policies before providing any personal data.</p>
+
+  <h3>Contact Us</h3>
+  <p>If you have any concerns regarding your privacy, please contact us via our contact form.</p>
+</section>
+</main>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="cookies.html">Cookie Policy</a>
+  <p>© 2025 Junior Giants</p>
+</footer>
+
+<script>
+  function toggleDrawer() {
+    const menu = document.getElementById('mobileMenu');
+    menu.classList.toggle('show');
+  }
+</script>
+</body>
+</html>

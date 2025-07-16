@@ -26,7 +26,7 @@
   }
   
   header img {
-    height: 60px;
+    height: 100px;
   }
   
   nav {
@@ -121,6 +121,7 @@
   }
   .fb-page {
     padding-top: 30px;
+    max-width: 100%;
   }
   
   .contact-form input,
@@ -151,6 +152,25 @@
     font-size: 2.5rem;
     color: var(--primary-color);
   }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+  }
+ 
   
   p {
     font-size: 1.2rem;
@@ -160,6 +180,7 @@
     nav {
       display: none;
     }
+
   
     .hamburger {
       display: flex;
@@ -173,6 +194,9 @@
         max-width: 80%;
     }
     .fb-page {
+        max-width: 90%;
+    }
+    .section {
         max-width: 100%;
     }
   }

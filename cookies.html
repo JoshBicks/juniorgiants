@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"></script>
+
+  <header>
+    <img src="Images/4928DED2-FB39-4114-8904-F351DED44D7A.PNG" alt="Junior Giants Logo" />
+    <nav>
+      <a href="index.html" onclick="CloseDrawer()">Home</a>
+      <a href="index.html#learn" onclick="CloseDrawer()">Learn to Play</a>
+      <a href="index.html#about" onclick="CloseDrawer()">About Us</a>
+      <a href="index.html#contact" onclick="CloseDrawer()">Contact</a>
+    </nav>
+    <div class="hamburger" onclick="toggleDrawer()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <div class="drawer" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="index.html#learn">Learn to Play</a>
+    <a href="index.html#about">About Us</a>
+    <a href="index.html#contact">Contact</a>
+  </div>
+
+  <main>
+    <section id="home" class="section">
+  
+    </section>
+
+    <section id="cookies" class="policy">
+        <section id="cookie-policy" class="section">
+            <h2>Cookie Policy</h2>
+          
+            <p>This Cookie Policy relates to the <a href="https://www.belfastjuniorgiants.co.uk" target="_blank">https://www.belfastjuniorgiants.co.uk</a> website.</p>
+          
+            <h3>What is a Cookie?</h3>
+            <p>
+              A cookie is a small text file that may be stored on your computer or mobile device and contains data related to a website you visit.
+              Cookies may allow a website to “remember” your actions or preferences over time, or they may contain data related to the function or delivery of the site.
+            </p>
+            <p>
+              Cookies can be set by the website owner (first-party cookies) or by third-party services the website owner allows to display content, deliver functionality, or provide analytics.
+            </p>
+          
+            <h3>How Are Cookies Used on This Site?</h3>
+            <p>
+              This site uses cookies to help us improve the user experience. The site does <strong>not</strong> use third-party cookies.
+            </p>
+          
+            <h3>Managing Cookies</h3>
+            <p>
+              You can manage your cookie preferences directly in your browser settings. Most browsers allow you to choose whether to accept, refuse, or delete cookies, including first-party and third-party cookies.
+            </p>
+            <p>
+              Below are links to cookie management instructions for popular web browsers:
+            </p>
+            <ul>
+              <li><a href="https://support.google.com/chrome/answer/95647" target="_blank">Google Chrome</a></li>
+              <li><a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Internet Explorer</a></li>
+              <li><a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank">Firefox</a></li>
+              <li><a href="https://support.apple.com/en-us/HT201265" target="_blank">Safari</a></li>
+              <li><a href="https://support.apple.com/en-us/HT201265" target="_blank">Safari Mobile</a></li>
+              <li><a href="https://help.opera.com/en/latest/web-preferences/#cookies" target="_blank">Opera</a></li>
+            </ul>
+          </section>
+          
+</section>
+  </main>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="cookies.html">Cookie Policy</a>
+    <p>© 2025 Junior Giants</p>
+  </footer>
+
+  <script>
+    function toggleDrawer() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
